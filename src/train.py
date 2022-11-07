@@ -32,9 +32,9 @@ root = pyrootutils.setup_root(
 
 from typing import List, Optional, Tuple
 
-import torch
 import hydra
 import pytorch_lightning as pl
+import torch
 from omegaconf import DictConfig
 from pytorch_lightning import Callback, LightningDataModule, LightningModule, Trainer
 from pytorch_lightning.loggers import LightningLoggerBase

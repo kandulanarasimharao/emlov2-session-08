@@ -5,8 +5,8 @@ from pytorch_lightning import LightningModule
 from torchmetrics import MaxMetric, MeanMetric
 from torchmetrics.classification.accuracy import Accuracy
 
-class TIMMLitModule(LightningModule):
 
+class TIMMLitModule(LightningModule):
     def __init__(
         self,
         net: torch.nn.Module,

@@ -1,0 +1,9 @@
+home/jupyter-vit_abhinav/Narasimha/emlov2-session-08/logs/train/runs/2022-11-06_22-00-38/model.script.pt
+
+torch-model-archiver --model-name mnist_basic --version 1.0 --serialized-file logs/train/runs/2022-11-06_22-00-38/model.script.pt --handler src/torch_handlers/mnist_handler.py --extra-files /home/jupyter-vit_abhinav/Narasimha/emlov2-session-08/src/torch_handlers/index_to_name.json
+
+
+/home/jupyter-vit_abhinav/Narasimha/emlov2-session-08/logs/train/runs/2022-11-07_01-50-51/model.script.pt
+
+
+torch-model-archiver --model-name cifar10_basic --version 1.0 --serialized-file logs/train/runs/2022-11-07_20-59-17/model.script.pt --handler src/torch_handlers2/cifar10_handler.py --extra-files /home/jupyter-vit_abhinav/Narasimha/emlov2-session-08/src/torch_handlers2/cifar10_classes/index_to_name.json

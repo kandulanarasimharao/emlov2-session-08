@@ -6,14 +6,12 @@ defaults:
   - override /callbacks: default.yaml
   - override /trainer: default.yaml
 
-
 tags: ["cifar10"]
 
 seed: 12345
 
 model:
   net:
-    model_name: vit_base_patch16_224
+    model_name: resnet18 #vit_base_patch16_224
     pretrained: True
     num_classes: 10
-
