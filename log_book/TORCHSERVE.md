@@ -20,7 +20,7 @@ test_serve/test_serve_cifar_REST_API.py::TestCIFAR::test_predict PASSED         
 
 
 <h1>3)Inference metrics</h1>
-
+<per>
 # HELP ts_queue_latency_microseconds Cumulative queue duration in microseconds
 # TYPE ts_queue_latency_microseconds counter
 ts_queue_latency_microseconds{uuid="77d609f1-7a63-4cdd-922c-7c06c4ec17fd",model_name="cifar",model_version="default",} 416.079
@@ -33,7 +33,7 @@ ts_inference_latency_microseconds{uuid="77d609f1-7a63-4cdd-922c-7c06c4ec17fd",mo
 # TYPE ts_inference_requests_total counter
 ts_inference_requests_total{uuid="77d609f1-7a63-4cdd-922c-7c06c4ec17fd",model_name="cifar",model_version="default",} 1.0
 ts_inference_requests_total{uuid="77d609f1-7a63-4cdd-922c-7c06c4ec17fd",model_name="cifar",model_version="1.0",} 40.0
-
+</pre>
 
 4) Tensorboard images
 <img src='PytorchProfiler1.JPG'/><br>
